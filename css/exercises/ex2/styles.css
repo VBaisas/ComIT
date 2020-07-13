@@ -1,0 +1,58 @@
+body {
+    margin: 10px;
+}
+ul {
+    color: #264653;
+    background-color: #f5cac3;
+}
+ol {
+    color: #2a9d8f;
+    background-color: #eae2b7;
+}
+.ul1 {
+    list-style-type: none;
+}
+.ul2 {
+    list-style-type: square;
+    position: sticky;
+    top: 0;
+    background-color: #f5cac3;
+    border: #264653 solid 1px;
+}
+.ul-img-bullet {
+    list-style-image: url("images/bullet-point.png");
+}
+.ul1 > li {
+    display: inline-block;
+}
+ol:nth-child(odd) {
+    color: red;
+}
+.ol1 {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    background-color: #e5e5e5;
+    border: #264653 solid 1px;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.dropdown-content {
+    display: none;
+    position: relative;
+    background-color: #e5e5e5;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+    position: absolute;
+}
+.dropdown {
+    background-color: orange;
+    padding: 8px;
+    border-radius: 4px;
+}

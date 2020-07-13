@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+div {
+    width: 900px;
+    height: 450px;
+    margin: 15px auto;
+    overflow: auto;
+}
+tr:nth-child(even) {
+    background-color: #ffee93;
+}
+td:first-child {
+    text-align: center;
+    width: 100px;
+}
+td:nth-child(2) {
+    text-align: left;
+    width: 600px;
+}
+td:nth-child(3) {
+    text-align: center;
+    width: 80px;
+}
+td:nth-child(4) {
+    text-align: center;
+    width: 80px;
+}
+td:nth-child(5) {
+    text-align: right;
+}
+thead {
+    background-color: #ffc09f;
+    font-style: italic;
+    font-size: 1.1em;
+    position: sticky;
+    top: 0px;
+}
+tfoot {
+    background-color: #adf7b6;
+    position: sticky;
+    bottom: 0;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Create User</title>
+    </head>
+    <body>
+        <h1>Create User</h1>
+        <hr>
+        <form method="post" enctype="multipart/form-data">
+            <label>Name</label>
+            <input type="text" name="name">
+            <div>
+                <label for="moviesid">Favourite movie</label>
+                <select name="movies" id="moviesid">
+                    <option value="deadpool">Deadpool</option>
+                    <option value="batman_vs_superman">Batman v Superman</option>
+                    <option value="civil_war">Captain America: Civil War</option>
+                    <option value="doctor_strange">Doctor Strange</option>
+                    <option value="suicide_squad">Suicide Squad</option>
+                    <option value="apocalypse">X-Men: Apocalypse</option>
+                    <option value="gotg_vol2">Guardians of the Galaxy Vol 2</option>
+                    <option value="justice_league">Justice League</option>
+                    <option value="logan">Logan - value</option>
+                    <option value="homecoming">Spider-Man: Homecoming</option>
+                    <option value="wonder_woman" selected>Wonder Woman</option>
+                    <option value="thor_ragnarok">Thor: Ragnarok</option>
+                    <option value="black_panther">Black Panther</option>
+                </select>
+            </div>
+        <div>
+            <label for="aboutid">About</label>
+            <textarea name="about" placeholder="Please let us know about yourself" id="aboutid"></textarea>
+        </div>       
+        <div>
+            <label for="avatarid">Upload your avatar</label>
+            <input type="file" name="avatar" id="avatarid">
+        </div>
+        <button name="clear_form">Clear Form</button>
+        <button name="add_user">Add new user</button>
+        </form>
+    </body>
+</html>
